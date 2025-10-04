@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="src/style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap"
+         rel="stylesheet"
+      />
+      
+      <title>my-project</title>
+   </head>
+   <body
+      style="
+         font-family: 'Bitcount Prop Single Ink', system-ui;
+         margin: 20px;
+         max-width: 1200px;
+         margin: auto;
+      "
+   >
+      <div class="sticky top-0 z-50 flex align-center items-center justify-between h-16 bg-gray-300">
+         <div class="p-4">
+            <a class="" href="index.html"
+               ><div class="flex space-x-3 items-center">
+                  <div>
+                     <img
+                        width="50"
+                        class="block rounded-full"
+                        src="src/image.png"
+                        alt="logo"
+                     />
+                  </div>
+                  <div>.movies</div>
+               </div></a
+            >
+         </div>
+         <div class="relative -left-[50px]">
+            <input
+               class=" border bg-gray-200 focus:border-cyan-100 outline-none border-gray-300 rounded-md cursor-pointer hover:shadow-2xs hover:bg-amber-100 p-2 space-x-3 lg:w-[300px]  sm:w-[200px]"
+               type="search"
+               placeholder="  🔍Search..."
+            />
+         </div>
+         <div class="flex items-center space-x-2 p-4">
+            <div>hi! user***</div>
+            <div><el-dropdown class="inline-block">
+  <button class="">
+    <img width="40" class="rounded-full" src="src/user.png" alt="user">
+    
+  </button>
+
+  <el-menu anchor="bottom end" popover class="w-56 origin-top-right rounded-md bg-white shadow-lg outline-1 outline-black/5 transition transition-discrete [--anchor-gap:--spacing(2)] data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in">
+    <div class="py-1 bg-amber-50">
+      <a href="#" class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">Account settings</a>
+      <a href="#" class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">Support</a>
+      <a href="#" class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">License</a>
+      <form action="#" method="POST">
+        <button type="submit" class="block w-full px-4 py-2 text-left text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">Sign out</button>
+      </form>
+    </div>
+  </el-menu></div>
+         </div>
+         </div>
+      </div>
+      <hr class="border-gray-400 shadow-blue-200" />
+<!-- header section end -->
+      <section class="bg-gray-700 border grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-[40%_60%] gap-4 p-2">
+        <div class="bg-gray-800 p-4 col-span-1 rounded-md">
+          <h5 class="mb-0.5">favourites</h5>
+          <hr class="border-gray-700 shadow-blue-200" />
+          <p>anime</p>
+          <ul>
+            <li class="pl-2 hover:bg-gray-100">Movie 1</li>
+            <li class="pl-2 hover:bg-gray-100">Movie 2</li>
+            <li class="pl-2 hover:bg-gray-100">Movie 3</li>
+            <li class="pl-2 hover:bg-gray-100">Movie 4</li>
+          </ul>
+          <hr class="border-gray-700 shadow-blue-200" />
+          <p></p>anime</p>
+          <ul>
+            <li class="pl-2 hover:bg-gray-100">Movie 1</li>
+            <li class="pl-2 hover:bg-gray-100">Movie 2</li>
+            <li class="pl-2 hover:bg-gray-100">Movie 3</li>
+            <li class="pl-2 hover:bg-gray-100">Movie 4</li>
+          </ul>
+          <hr class="border-gray-700 shadow-blue-200" />
+          <p></p>anime</p>
+          
+          <ul>
+            <li class="pl-2 hover:bg-gray-100">Movie 1</li>
+            <li class="pl-2 hover:bg-gray-100">Movie 2</li>
+            <li class="pl-2 hover:bg-gray-100">Movie 3</li>
+            <li class="pl-2 hover:bg-gray-100">Movie 4</li>
+          </ul>
+          <div class="flex justify-center"><button class="w-full bg-gray-300 m-4 text-white hover:bg-gray-100 rounded-md px-2 py-1 duration-300 cursor-pointer"> + Add More</button></div>
+        </div>
+        </div>
+        <div class="bg-gray-800 p-4 lg:col-span-3 md:col-span-2 sm:col-span-1 rounded-md">
+
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-4">
+          <div class="bg-gray-900  rounded-md">
+            <div class="flex flex-col items-justify space-y-2 p-2 rounded-2xl">
+              <img class="rounded-t-xl" src="./src/spider.png" alt="image">
+              <h3 class="p-1.5">Spider-Man: Across the Spider-Verse</h3>
+              <p class="px-1.5">Action, Adventure, Animation</p>
+              <p class="px-1.5">IMDB Rating: 8.8/10 (2023)</p>
+              <button class="bg-gray-300 hover:bg-gray-100 rounded-md px-2 py-1 cursor-pointer duration-300 m-4">Watch Now</button>
+            </div>
+          </div>
+          <div class="bg-gray-900  rounded-md">
+            <div class="flex flex-col items-justify space-y-2 p-2 rounded-2xl">
+              <img class="rounded-t-xl" src="./src/spider.png" alt="image">
+              <h3 class="p-1.5">Spider-Man: Across the Spider-Verse</h3>
+              <p class="px-1.5">Action, Adventure, Animation</p>
+              <p class="px-1.5">IMDB Rating: 8.8/10 (2023)</p>
+              <button class="bg-gray-300 hover:bg-gray-100 rounded-md px-2 py-1 cursor-pointer duration-300 m-4">Watch Now</button>
+            </div>
+          </div>
+          <div class="bg-gray-900  rounded-md">
+            <div class="flex flex-col items-justify space-y-2 p-2 rounded-2xl">
+              <img class="rounded-t-xl" src="./src/spider.png" alt="image">
+              <h3 class="p-1.5">Spider-Man: Across the Spider-Verse</h3>
+              <p class="px-1.5">Action, Adventure, Animation</p>
+              <p class="px-1.5">IMDB Rating: 8.8/10 (2023)</p>
+              <button class="bg-gray-300 hover:bg-gray-100 rounded-md px-2 py-1 cursor-pointer duration-300 m-4">Watch Now</button>
+            </div>
+          </div>
+          <div class="bg-gray-900  rounded-md">
+            <div class="flex flex-col items-justify space-y-2 p-2 rounded-2xl">
+              <img class="rounded-t-xl" src="./src/spider.png" alt="image">
+              <h3 class="p-1.5">Spider-Man: Across the Spider-Verse</h3>
+              <p class="px-1.5">Action, Adventure, Animation</p>
+              <p class="px-1.5">IMDB Rating: 8.8/10 (2023)</p>
+              <button class="bg-gray-300 hover:bg-gray-100 rounded-md px-2 py-1 cursor-pointer duration-300 m-4">Watch Now</button>
+            </div>
+          </div>
+          <div class="bg-gray-900  rounded-md">
+            <div class="flex flex-col items-justify space-y-2 p-2 rounded-2xl">
+              <img class="rounded-t-xl" src="./src/spider.png" alt="image">
+              <h3 class="p-1.5">Spider-Man: Across the Spider-Verse</h3>
+              <p class="px-1.5">Action, Adventure, Animation</p>
+              <p class="px-1.5">IMDB Rating: 8.8/10 (2023)</p>
+              <button class="bg-gray-300 hover:bg-gray-100 rounded-md px-2 py-1 cursor-pointer duration-300 m-4">Watch Now</button>
+            </div>
+          </div>
+          <div class="bg-gray-900  rounded-md">
+            <div class="flex flex-col items-justify space-y-2 p-2 rounded-2xl">
+              <img class="rounded-t-xl" src="./src/spider.png" alt="image">
+              <h3 class="p-1.5">Spider-Man: Across the Spider-Verse</h3>
+              <p class="px-1.5">Action, Adventure, Animation</p>
+              <p class="px-1.5">IMDB Rating: 8.8/10 (2023)</p>
+              <button class="bg-gray-300 hover:bg-gray-100 rounded-md px-2 py-1 cursor-pointer duration-300 m-4">Watch Now</button>
+            </div>
+          </div>
+          <div class="bg-gray-900  rounded-md">
+            <div class="flex flex-col items-justify space-y-2 p-2 rounded-2xl">
+              <img class="rounded-t-xl" src="./src/spider.png" alt="image">
+              <h3 class="p-1.5">Spider-Man: Across the Spider-Verse</h3>
+              <p class="px-1.5">Action, Adventure, Animation</p>
+              <p class="px-1.5">IMDB Rating: 8.8/10 (2023)</p>
+              <button class="bg-gray-300 hover:bg-gray-100 rounded-md px-2 py-1 cursor-pointer duration-300 m-4">Watch Now</button>
+            </div>
+          </div>
+          
+          
+
+        </div>
+       </div>
+      </section>
+      <hr class="border-gray-400 shadow-blue-200 " />
+      <!-- footer -->
+      <div class="sticky bottom-0 border-t-2 z-50 flex align-center items-center justify-between h-8 bg-gray-900 shadow-md">
+
+        <footer class="w-full py-2 bg-gray-100 text-sm text-gray-700">
+  <div class="max-w-4xl mx-auto text-center">
+    © <span id="year"></span> | All rights reserved | Made with ❤️ by <a href="https://sabbi.dev" class="text-blue-500 hover:text-amber-300">Sabbi</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+      </div>
+
+
+</el-dropdown><script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
+   </body>
+</html>
