@@ -5,5 +5,6 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-  base: '/my-project/',
-})
+  base: '/simple_tailwind_project_responsive/',
+ })
+ 
